@@ -1,0 +1,7 @@
+metric,key,baseline,proposed,change,better,available
+Average emergency waiting time (s),emergency_waiting_time_s,10.0,3.5,-6.5,lower,True
+Maximum emergency waiting time (s),emergency_max_wait_s,26.0,3.5,-22.5,lower,True
+Average normal vehicle waiting time (s),normal_waiting_time_s,9.710040201570395,8.972762052567532,-0.7372781490028633,lower,True
+Priority response time (s),priority_response_time_s,,1.5,,lower,False
+Vehicle throughput (vehicles/hour),throughput_vph,1704.0,1710.0,6.0,higher,True
+Priority activations,priority_events,0,5,5,higher,True

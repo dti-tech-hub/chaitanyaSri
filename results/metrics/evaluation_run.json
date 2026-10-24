@@ -1,0 +1,127 @@
+{
+  "evaluated_at": "2026-10-24T01:14:28+00:00",
+  "elapsed_s": 67.5,
+  "command": {
+    "model": "models/yolo/best.pt",
+    "data": "data/dataset/data.yaml",
+    "split": null,
+    "plots": true
+  },
+  "status": "evaluated",
+  "result": {
+    "status": "evaluated",
+    "model": "B:\\chaitanyasri\\emergency-vehicle-smart-signal\\models\\yolo\\best.pt",
+    "dataset": "B:\\chaitanyasri\\emergency-vehicle-smart-signal\\data\\dataset\\data.yaml",
+    "split": "test",
+    "overall": {
+      "precision": 0.985288,
+      "recall": 0.982266,
+      "f1": 0.983774,
+      "mAP50": 0.988837,
+      "mAP50-95": 0.660483
+    },
+    "per_class": [
+      {
+        "class": "ambulance",
+        "images": 72,
+        "instances": 73,
+        "precision": 0.99834,
+        "recall": 0.9863,
+        "f1": 0.99228,
+        "mAP50": 0.99436,
+        "mAP50-95": 0.66664
+      },
+      {
+        "class": "fire_engine",
+        "images": 20,
+        "instances": 20,
+        "precision": 1.0,
+        "recall": 0.97346,
+        "f1": 0.98655,
+        "mAP50": 0.995,
+        "mAP50-95": 0.73789
+      },
+      {
+        "class": "police_vehicle",
+        "images": 57,
+        "instances": 57,
+        "precision": 0.95666,
+        "recall": 0.98246,
+        "f1": 0.96938,
+        "mAP50": 0.98362,
+        "mAP50-95": 0.65854
+      },
+      {
+        "class": "normal_vehicle",
+        "images": 23,
+        "instances": 76,
+        "precision": 0.98616,
+        "recall": 0.98684,
+        "f1": 0.9865,
+        "mAP50": 0.98237,
+        "mAP50-95": 0.57885
+      }
+    ],
+    "operating_point": {
+      "available": true,
+      "images": 143,
+      "images_with_emergency": 137,
+      "tp": 222,
+      "fp": 4,
+      "fn": 4,
+      "precision": 0.9823008849557522,
+      "recall": 0.9823008849557522,
+      "f1": 0.9823008849557522,
+      "conf_threshold": 0.55,
+      "iou_match": 0.5,
+      "per_class": {
+        "tp": {
+          "2": 56,
+          "0": 71,
+          "1": 20,
+          "3": 75
+        },
+        "fp": {
+          "2": 2,
+          "0": 1,
+          "3": 1
+        },
+        "fn": {
+          "2": 1,
+          "0": 2,
+          "3": 1
+        }
+      },
+      "roc": {
+        "available": true,
+        "auc": 1.0,
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.0072992700729927005,
+          1.0,
+          1.0
+        ],
+        "thresholds": [
+          Infinity,
+          0.9639818072319031,
+          0.5647504925727844,
+          0.0
+        ],
+        "note": "Auxiliary image-level emergency-presence ROC, not an object-detection mAP metric."
+      }
+    },
+    "speed_ms_per_image": {
+      "preprocess": 1.5513,
+      "inference": 110.0199,
+      "loss": 0.0002,
+      "postprocess": 2.0267
+    },
+    "val_dir": "B:\\chaitanyasri\\emergency-vehicle-smart-signal\\results\\metrics\\yolo_val_test"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "scenario": {
+    "duration_s": 600.0,
+    "seed": 42,
+    "vehicles": 287,
+    "emergency_vehicles": 5,
+    "arrival_rates_per_hour": {
+      "north": 420.0,
+      "south": 420.0,
+      "east": 380.0,
+      "west": 380.0
+    }
+  },
+  "baseline": {
+    "controller": "fixed_time_baseline",
+    "duration_s": 600.0,
+    "vehicles_total": 287,
+    "vehicles_served": 284,
+    "emergency_total": 5,
+    "emergency_served": 5,
+    "emergency_waiting_time_s": 10.0,
+    "emergency_max_wait_s": 26.0,
+    "normal_waiting_time_s": 9.710040201570395,
+    "normal_max_wait_s": 28.170591990757572,
+    "throughput_vph": 1704.0,
+    "priority_events": 0
+  },
+  "proposed": {
+    "controller": "emergency_priority_proposed",
+    "duration_s": 600.0,
+    "vehicles_total": 287,
+    "vehicles_served": 285,
+    "emergency_total": 5,
+    "emergency_served": 5,
+    "emergency_waiting_time_s": 3.5,
+    "emergency_max_wait_s": 3.5,
+    "normal_waiting_time_s": 8.972762052567532,
+    "normal_max_wait_s": 52.61354800176531,
+    "throughput_vph": 1710.0,
+    "priority_events": 5,
+    "priority_response_time_s": 1.5
+  },
+  "priority_events": [
+    {
+      "event_id": 1,
+      "vehicle_id": 283,
+      "vehicle_class": "ambulance",
+      "lane": "north",
+      "arrival_time": 40.0,
+      "requested_time": 42.0,
+      "green_time": 43.5,
+      "release_time": 49.5,
+      "waiting_time_s": 3.5,
+      "baseline_wait_s": 8.0,
+      "priority_duration_s": 6.0
+    },
+    {
+      "event_id": 2,
+      "vehicle_id": 284,
+      "vehicle_class": "fire_engine",
+      "lane": "east",
+      "arrival_time": 170.0,
+      "requested_time": 172.0,
+      "green_time": 173.5,
+      "release_time": 179.5,
+      "waiting_time_s": 3.5,
+      "baseline_wait_s": 0.0,
+      "priority_duration_s": 6.0
+    },
+    {
+      "event_id": 3,
+      "vehicle_id": 285,
+      "vehicle_class": "police_vehicle",
+      "lane": "south",
+      "arrival_time": 300.0,
+      "requested_time": 302.0,
+      "green_time": 303.5,
+      "release_time": 309.5,
+      "waiting_time_s": 3.5,
+      "baseline_wait_s": 0.0,
+      "priority_duration_s": 6.0
+    },
+    {
+      "event_id": 4,
+      "vehicle_id": 286,
+      "vehicle_class": "ambulance",
+      "lane": "west",
+      "arrival_time": 430.0,
+      "requested_time": 432.0,
+      "green_time": 433.5,
+      "release_time": 439.5,
+      "waiting_time_s": 3.5,
+      "baseline_wait_s": 26.0,
+      "priority_duration_s": 6.0
+    },
+    {
+      "event_id": 5,
+      "vehicle_id": 287,
+      "vehicle_class": "fire_engine",
+      "lane": "north",
+      "arrival_time": 560.0,
+      "requested_time": 562.0,
+      "green_time": 563.5,
+      "release_time": 569.5,
+      "waiting_time_s": 3.5,
+      "baseline_wait_s": 16.0,
+      "priority_duration_s": 6.0
+    }
+  ]
+}

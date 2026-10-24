@@ -1,0 +1,101 @@
+[
+  {
+    "density": "low",
+    "seed": 42,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 8.86125682896459,
+    "proposed_normal_wait_s": 7.679526146808212,
+    "baseline_throughput_vph": 762.0,
+    "proposed_throughput_vph": 750.0,
+    "priority_events": 5
+  },
+  {
+    "density": "low",
+    "seed": 43,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 8.628018201497651,
+    "proposed_normal_wait_s": 8.145993424176538,
+    "baseline_throughput_vph": 660.0,
+    "proposed_throughput_vph": 654.0,
+    "priority_events": 5
+  },
+  {
+    "density": "low",
+    "seed": 44,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 8.656284328065693,
+    "proposed_normal_wait_s": 6.439708469679626,
+    "baseline_throughput_vph": 750.0,
+    "proposed_throughput_vph": 738.0,
+    "priority_events": 5
+  },
+  {
+    "density": "medium",
+    "seed": 42,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 9.710040201570395,
+    "proposed_normal_wait_s": 8.972762052567532,
+    "baseline_throughput_vph": 1704.0,
+    "proposed_throughput_vph": 1710.0,
+    "priority_events": 5
+  },
+  {
+    "density": "medium",
+    "seed": 43,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 7.695987453727157,
+    "proposed_normal_wait_s": 8.556002920648677,
+    "baseline_throughput_vph": 1542.0,
+    "proposed_throughput_vph": 1536.0,
+    "priority_events": 5
+  },
+  {
+    "density": "medium",
+    "seed": 44,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 8.091563046925069,
+    "proposed_normal_wait_s": 8.049163783007165,
+    "baseline_throughput_vph": 1800.0,
+    "proposed_throughput_vph": 1806.0000000000002,
+    "priority_events": 5
+  },
+  {
+    "density": "high",
+    "seed": 42,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 8.683921669226107,
+    "proposed_normal_wait_s": 9.154883316496488,
+    "baseline_throughput_vph": 3456.0,
+    "proposed_throughput_vph": 3456.0,
+    "priority_events": 5
+  },
+  {
+    "density": "high",
+    "seed": 43,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 8.266366634922974,
+    "proposed_normal_wait_s": 9.025438161033478,
+    "baseline_throughput_vph": 3426.0,
+    "proposed_throughput_vph": 3414.0,
+    "priority_events": 5
+  },
+  {
+    "density": "high",
+    "seed": 44,
+    "baseline_emergency_wait_s": 10.0,
+    "proposed_emergency_wait_s": 3.5,
+    "baseline_normal_wait_s": 8.171054562389925,
+    "proposed_normal_wait_s": 8.230954435270458,
+    "baseline_throughput_vph": 3666.0,
+    "proposed_throughput_vph": 3606.0,
+    "priority_events": 5
+  }
+]

@@ -1,0 +1,23 @@
+# Python / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Training runs and model binaries (redistribute weights separately if needed)
+results/training/ev_yolo_448/
+results/training/smoke_yolo/
+models/yolo/*.pt
+
+# Large raw data and generated video
+data/raw/
+data/dataset/images/
+data/dataset/labels/
+results/videos/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+field,value
+Device,cpu
+Input size,448 x 448
+Batch size,16
+Epochs requested,30
+Elapsed,54652.7 s (15:10:52)
+Seed / deterministic,42 / True
+Optimizer / LR,"auto / lr0=0.001, lrf=0.01, cosine=True"
+Augmentation,"HSV (0.015/0.6/0.4), rotate 5 deg, translate 0.1, scale 0.5, shear 2, flip-LR 0.5, mosaic 0.8, mixup 0.05"
+Model,"YOLOv8n, 72 layers, 3,006,428 parameters, 8.1 GFLOPs"

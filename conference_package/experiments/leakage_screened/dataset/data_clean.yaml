@@ -1,0 +1,10 @@
+path: B:\chaitanyasri\emergency-vehicle-smart-signal\conference_package\experiments\leakage_screened\dataset
+train: B:\chaitanyasri\emergency-vehicle-smart-signal\data\dataset\images\train
+val: B:\chaitanyasri\emergency-vehicle-smart-signal\data\dataset\images\val
+test: images/test
+names:
+  0: ambulance
+  1: fire_engine
+  2: police_vehicle
+  3: normal_vehicle
+nc: 4

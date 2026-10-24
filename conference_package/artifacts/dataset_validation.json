@@ -1,0 +1,62 @@
+{
+  "data_yaml": "B:\\chaitanyasri\\emergency-vehicle-smart-signal\\data\\dataset\\data.yaml",
+  "root": "B:\\chaitanyasri\\emergency-vehicle-smart-signal\\data\\dataset",
+  "classes": [
+    "ambulance",
+    "fire_engine",
+    "police_vehicle",
+    "normal_vehicle"
+  ],
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "splits": {
+    "train": {
+      "images": 998,
+      "boxes": 1719,
+      "empty_labels": 1,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "bad_boxes": 0,
+      "unknown_class_ids": 0,
+      "class_counts": {
+        "ambulance": 563,
+        "fire_engine": 132,
+        "police_vehicle": 344,
+        "normal_vehicle": 680
+      }
+    },
+    "val": {
+      "images": 285,
+      "boxes": 501,
+      "empty_labels": 0,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "bad_boxes": 0,
+      "unknown_class_ids": 0,
+      "class_counts": {
+        "ambulance": 148,
+        "fire_engine": 35,
+        "police_vehicle": 116,
+        "normal_vehicle": 202
+      }
+    },
+    "test": {
+      "images": 143,
+      "boxes": 226,
+      "empty_labels": 0,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "bad_boxes": 0,
+      "unknown_class_ids": 0,
+      "class_counts": {
+        "ambulance": 73,
+        "fire_engine": 20,
+        "police_vehicle": 57,
+        "normal_vehicle": 76
+      }
+    }
+  },
+  "duplicates": 0,
+  "contact_sheet": "B:\\chaitanyasri\\emergency-vehicle-smart-signal\\results\\figures\\dataset_samples.png"
+}

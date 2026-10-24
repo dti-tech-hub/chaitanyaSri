@@ -1,0 +1,173 @@
+# Real-Time Emergency Vehicle Detection and Smart Traffic Signal Control
+# Simulated traffic-signal control prototype (research / B.Tech project).
+# All timings and thresholds are prototype parameters, not universal standards.
+
+project:
+  name: "Emergency Vehicle Detection & Smart Traffic Signal Control"
+  version: "1.0.0"
+  seed: 42
+  disclaimer: >-
+    This project controls a SIMULATED traffic signal. It is not connected to,
+    nor validated on, real public-road traffic infrastructure.
+
+model:
+  # Custom emergency-vehicle YOLO weights produced by scripts/train_yolo.py
+  path: "models/yolo/best.pt"
+  # Optional COCO fallback. It cannot reliably detect emergency classes; the
+  # pipeline will warn and refuse to activate priority when classes are absent.
+  fallback_path: "models/yolo/yolov8n.pt"
+  confidence: 0.55          # operating confidence threshold for emergency vehicles
+  iou: 0.45
+  imgsz: 448               # must match the training resolution
+  device: "auto"            # auto | cpu | cuda | cuda:0 | mps
+  max_detections: 60
+  half: false
+  verbose: false
+  # Model class names are mapped onto canonical project classes. This keeps the
+  # controller safe when a dataset uses different names ("fire brigade", etc.).
+  class_aliases:
+    ambulance:
+      - ambulance
+      - ambulance vehicle
+      - amb
+    fire_engine:
+      - fire_engine
+      - fire engine
+      - fire brigade
+      - fire-truck
+      - fire truck
+      - firetruck
+      - fire
+    police_vehicle:
+      - police_vehicle
+      - police vehicle
+      - police car
+      - police
+      - police cruiser
+    normal_vehicle:
+      - normal_vehicle
+      - normal vehicle
+      - vehicle
+      - car
+      - truck
+      - bus
+      - motorcycle
+      - motorbike
+      - bicycle
+      - van
+      - auto
+      - auto rickshaw
+
+emergency_classes:
+  - ambulance
+  - fire_engine
+  - police_vehicle
+
+vehicle_classes:
+  - ambulance
+  - fire_engine
+  - police_vehicle
+  - normal_vehicle
+
+tracking:
+  enabled: true
+  algorithm: "iou"          # iou | bytetrack (ByteTrack needs the optional `lap` package)
+  iou_threshold: 0.30
+  max_age_frames: 30
+  min_hits: 2
+  class_aware: true
+  history_length: 40
+
+lanes:
+  config_path: "config/intersection.yaml"
+  # Number of recent track centres used to smooth lane assignment.
+  smoothing_frames: 5
+  unknown_lane_policy: "no_priority"   # fail-safe: never guess a lane
+
+priority:
+  confidence_threshold: 0.60
+  confirmation_frames: 3           # consecutive confident detections of one track
+  min_tracking_seconds: 0.5
+  cooldown_seconds: 10.0           # no new priority request during cooldown
+  hold_after_exit_seconds: 2.0     # keep green while the vehicle clears
+  lost_track_timeout_seconds: 3.0  # tolerate temporary detection loss
+  max_priority_seconds: 45.0       # fail-safe upper bound
+  approach_motion_window: 8
+  approach_min_displacement_px: 4.0
+  approach_min_distance_delta: 0.01   # normalised distance-to-centre decrease
+  approach_stationary_distance: 0.42   # normalised; stopped EV close to junction
+  policy: "closest"                # closest | confidence | arrival
+  exit_mode: "roi"                 # roi | lost | roi_or_lost
+
+signals:
+  green_seconds: 20
+  yellow_seconds: 3
+  all_red_seconds: 1
+  min_green_seconds: 5
+  max_green_seconds: 60
+  priority_prepare_min_red_seconds: 1.5
+  start_phase: "north_south_green"
+  conflict_groups:
+    north_south: [north, south]
+    east_west: [east, west]
+
+density:
+  enabled: true
+  low_max: 3                # 0-3 vehicles -> LOW
+  medium_max: 8             # 4-8 -> MEDIUM
+  occupancy_low_max: 0.15
+  occupancy_medium_max: 0.40
+  smoothing_alpha: 0.30
+  vehicle_classes: [normal_vehicle, ambulance, fire_engine, police_vehicle]
+
+realtime:
+  target_fps: 15
+  frame_skip: 0
+  loop_video: true
+  display: true
+  max_frames: 0             # 0 = unlimited
+  save_video: false
+  window_name: "Emergency Vehicle Smart Signal - Simulated Prototype"
+  jpeg_quality: 85
+
+evaluation:
+  test_split: "test"
+  conf_threshold: 0.001
+  iou_threshold: 0.60
+  plots: true
+
+paths:
+  results_dir: "results"
+  metrics_dir: "results/metrics"
+  figures_dir: "results/figures"
+  events_dir: "results/events"
+  logs_dir: "results/logs"
+  events_csv: "results/events/events.csv"
+  performance_csv: "results/metrics/performance.csv"
+  signal_metrics_csv: "results/metrics/signal_metrics.csv"
+  detection_metrics_csv: "results/metrics/detection_metrics.csv"
+  simulation_dir: "results/simulation"
+
+simulation:
+  duration_s: 600
+  dt_s: 0.25
+  seed: 42
+  arrival_rate_per_lane_per_hour: [420, 420, 380, 380]
+  normal_crossing_s: 3.0
+  ev_crossing_s: 6.0
+  ev_confirmation_s: 2.0
+  # Schedule C was selected by an actual sweep: it produces five distinct
+  # priority activations and a clear, honest baseline comparison. Schedules that
+  # happened to arrive on green were rejected because they would understate
+  # the effect of priority.
+  emergency_schedule:
+    - {time_s: 40, lane: north, class: ambulance}
+    - {time_s: 170, lane: east, class: fire_engine}
+    - {time_s: 300, lane: south, class: police_vehicle}
+    - {time_s: 430, lane: west, class: ambulance}
+    - {time_s: 560, lane: north, class: fire_engine}
+
+dashboard:
+  run_seconds: 30
+  frame_delay_ms: 40
+  max_display_width: 900

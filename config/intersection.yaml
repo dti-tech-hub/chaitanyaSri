@@ -1,0 +1,54 @@
+# Simulated four-approach intersection geometry.
+# Coordinates are normalised [0, 1]; multiply by frame width/height.
+# Edit these polygons with:  python tools/calibrate_lanes.py
+# The default geometry is a schematic top-ish view. For a real camera, always
+# recalibrate: a wrong lane must never trigger priority.
+#
+# Approach semantics
+# ------------------
+# lanes.north  = vehicles approaching from the top of the frame.
+# lanes.south  = vehicles approaching from the bottom.
+# lanes.west   = vehicles approaching from the left.
+# lanes.east   = vehicles approaching from the right.
+#
+# exit_zones.north is the zone that a NORTH-approach vehicle reaches after
+# crossing the intersection (far side, bottom of frame). The naming follows the
+# approach, not the physical side of the zone.
+
+intersection:
+  width: 1280
+  height: 720
+  coordinate_mode: normalized
+  center: [0.50, 0.50]
+  center_zone: [[0.28, 0.32], [0.72, 0.32], [0.72, 0.68], [0.28, 0.68]]
+  approach_distance_scale: 0.707   # normalised distance at a frame corner
+
+lanes:
+  north:
+    group: north_south
+    display: NORTH
+    polygon: [[0.30, 0.00], [0.70, 0.00], [0.72, 0.31], [0.28, 0.31]]
+  south:
+    group: north_south
+    display: SOUTH
+    polygon: [[0.28, 0.69], [0.72, 0.69], [0.70, 1.00], [0.30, 1.00]]
+  east:
+    group: east_west
+    display: EAST
+    polygon: [[0.69, 0.28], [1.00, 0.28], [1.00, 0.72], [0.69, 0.72]]
+  west:
+    group: east_west
+    display: WEST
+    polygon: [[0.00, 0.28], [0.31, 0.28], [0.31, 0.72], [0.00, 0.72]]
+
+# After an EV is detected in an approach, it is considered to have passed when
+# its track centre enters the corresponding far-side exit polygon.
+exit_zones:
+  north: [[0.28, 0.76], [0.72, 0.76], [0.70, 1.00], [0.30, 1.00]]
+  south: [[0.30, 0.00], [0.70, 0.00], [0.72, 0.24], [0.28, 0.24]]
+  west:  [[0.76, 0.28], [1.00, 0.28], [1.00, 0.72], [0.76, 0.72]]
+  east:  [[0.00, 0.28], [0.24, 0.28], [0.24, 0.72], [0.00, 0.72]]
+
+# Stop-line / approach detection is deliberately conservative: an EV must be
+# inside the approach polygon. The union of approaches and exit zones covers
+# only the camera's visible road area; everything else is "UNKNOWN".

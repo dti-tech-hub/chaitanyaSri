@@ -1,0 +1,4 @@
+split,images,boxes,ambulance,fire_engine,police_vehicle,normal_vehicle
+train,998,1719,563,132,344,680
+val,285,501,148,35,116,202
+test,143,226,73,20,57,76

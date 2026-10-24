@@ -1,0 +1,65 @@
+metric,class,value,note
+evaluated_at,all,2026-10-24T01:14:27+00:00,
+model,all,B:\chaitanyasri\emergency-vehicle-smart-signal\models\yolo\best.pt,
+dataset,all,B:\chaitanyasri\emergency-vehicle-smart-signal\data\dataset\data.yaml,
+split,all,test,
+precision,all,0.985288,Ultralytics validation
+recall,all,0.982266,Ultralytics validation
+f1,all,0.983774,Ultralytics validation
+mAP50,all,0.988837,Ultralytics validation
+mAP50-95,all,0.660483,Ultralytics validation
+precision,ambulance,0.99834,per-class validation
+recall,ambulance,0.9863,per-class validation
+f1,ambulance,0.99228,per-class validation
+mAP50,ambulance,0.99436,per-class validation
+mAP50-95,ambulance,0.66664,per-class validation
+instances,ambulance,73,test split ground truth
+images_with_class,ambulance,72,test split ground truth
+precision,fire_engine,1.0,per-class validation
+recall,fire_engine,0.97346,per-class validation
+f1,fire_engine,0.98655,per-class validation
+mAP50,fire_engine,0.995,per-class validation
+mAP50-95,fire_engine,0.73789,per-class validation
+instances,fire_engine,20,test split ground truth
+images_with_class,fire_engine,20,test split ground truth
+precision,police_vehicle,0.95666,per-class validation
+recall,police_vehicle,0.98246,per-class validation
+f1,police_vehicle,0.96938,per-class validation
+mAP50,police_vehicle,0.98362,per-class validation
+mAP50-95,police_vehicle,0.65854,per-class validation
+instances,police_vehicle,57,test split ground truth
+images_with_class,police_vehicle,57,test split ground truth
+precision,normal_vehicle,0.98616,per-class validation
+recall,normal_vehicle,0.98684,per-class validation
+f1,normal_vehicle,0.9865,per-class validation
+mAP50,normal_vehicle,0.98237,per-class validation
+mAP50-95,normal_vehicle,0.57885,per-class validation
+instances,normal_vehicle,76,test split ground truth
+images_with_class,normal_vehicle,23,test split ground truth
+tp,all,222,conf=0.55 IoU>=0.5
+fp,all,4,conf=0.55 IoU>=0.5
+fn,all,4,conf=0.55 IoU>=0.5
+operating_precision,all,0.982301,operating point
+operating_recall,all,0.982301,operating point
+operating_f1,all,0.982301,operating point
+images_evaluated,all,143,operating point
+operating_tp,ambulance,71,operating point
+operating_fp,ambulance,1,operating point
+operating_fn,ambulance,2,operating point
+operating_precision,ambulance,0.986111,operating point
+operating_recall,ambulance,0.972603,operating point
+operating_tp,fire_engine,20,operating point
+operating_fp,fire_engine,0,operating point
+operating_fn,fire_engine,0,operating point
+operating_precision,fire_engine,1.0,operating point
+operating_recall,fire_engine,1.0,operating point
+operating_tp,police_vehicle,56,operating point
+operating_fp,police_vehicle,2,operating point
+operating_fn,police_vehicle,1,operating point
+operating_precision,police_vehicle,0.965517,operating point
+operating_recall,police_vehicle,0.982456,operating point
+operating_tp,normal_vehicle,75,operating point
+operating_fp,normal_vehicle,1,operating point
+operating_fn,normal_vehicle,1,operating point
+operating_precision,normal_vehicle,0.986842,operating point
+operating_recall,normal_vehicle,0.986842,operating point

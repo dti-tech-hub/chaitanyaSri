@@ -1,0 +1,133 @@
+{
+  "status": "evaluated",
+  "evaluated_at": "2026-10-24T01:39:43+00:00",
+  "protocol": {
+    "purpose": "Leakage-screened re-evaluation",
+    "screen": "union of paper/provenance/near_duplicate_audit.json and the reproducible dHash pass (threshold <= 6); every flagged test image removed",
+    "model": "models/yolo/best.pt",
+    "imgsz": 448,
+    "mAP_conf": 0.001,
+    "mAP_iou": 0.6,
+    "operating_conf": 0.55,
+    "device": "cpu",
+    "elapsed_s": 30.1
+  },
+  "split": {
+    "images_total": 143,
+    "images_flagged": 87,
+    "images_kept": 56,
+    "audit_committed_flagged": 77,
+    "audit_recomputed_flagged": 81,
+    "audit_union_flagged": 87,
+    "data_yaml": "B:\\chaitanyasri\\emergency-vehicle-smart-signal\\conference_package\\experiments\\leakage_screened\\dataset\\data_clean.yaml"
+  },
+  "overall": {
+    "precision": 0.941486,
+    "recall": 0.956296,
+    "f1": 0.948833,
+    "mAP50": 0.952714,
+    "mAP50-95": 0.636006
+  },
+  "per_class": [
+    {
+      "class": "ambulance",
+      "images": 33,
+      "instances": 34,
+      "precision": 0.99672,
+      "recall": 0.97059,
+      "f1": 0.98348,
+      "mAP50": 0.99244,
+      "mAP50-95": 0.69117
+    },
+    {
+      "class": "fire_engine",
+      "images": 17,
+      "instances": 17,
+      "precision": 1.0,
+      "recall": 0.96848,
+      "f1": 0.98399,
+      "mAP50": 0.995,
+      "mAP50-95": 0.73178
+    },
+    {
+      "class": "police_vehicle",
+      "images": 10,
+      "instances": 10,
+      "precision": 0.78374,
+      "recall": 0.9,
+      "f1": 0.83786,
+      "mAP50": 0.84092,
+      "mAP50-95": 0.53931
+    },
+    {
+      "class": "normal_vehicle",
+      "images": 21,
+      "instances": 72,
+      "precision": 0.98548,
+      "recall": 0.98611,
+      "f1": 0.9858,
+      "mAP50": 0.9825,
+      "mAP50-95": 0.58176
+    }
+  ],
+  "operating_point": {
+    "available": true,
+    "images": 56,
+    "images_with_emergency": 50,
+    "tp": 129,
+    "fp": 4,
+    "fn": 4,
+    "precision": 0.9699248120300752,
+    "recall": 0.9699248120300752,
+    "f1": 0.9699248120300752,
+    "conf_threshold": 0.55,
+    "iou_match": 0.5,
+    "per_class": {
+      "tp": {
+        "2": 9,
+        "0": 32,
+        "1": 17,
+        "3": 71
+      },
+      "fp": {
+        "2": 2,
+        "0": 1,
+        "3": 1
+      },
+      "fn": {
+        "2": 1,
+        "0": 2,
+        "3": 1
+      }
+    },
+    "roc": {
+      "available": true,
+      "auc": 1.0,
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.02,
+        1.0,
+        1.0
+      ],
+      "thresholds": [
+        Infinity,
+        0.9639818072319031,
+        0.5647504925727844,
+        0.0
+      ],
+      "note": "Auxiliary image-level emergency-presence ROC, not an object-detection mAP metric."
+    }
+  },
+  "speed_ms_per_image": {
+    "preprocess": 1.757,
+    "inference": 104.5253,
+    "loss": 0.0003,
+    "postprocess": 2.8131
+  }
+}

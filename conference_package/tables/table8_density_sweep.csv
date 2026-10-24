@@ -1,0 +1,4 @@
+density,seeds,baseline_ev_wait_s,proposed_ev_wait_s,baseline_normal_wait_s,proposed_normal_wait_s,baseline_throughput_vph,proposed_throughput_vph,priority_events
+low,3,10.00 +/- 0.00,3.50 +/- 0.00,8.72 +/- 0.13,7.42 +/- 0.88,724 +/- 56,714 +/- 52,15
+medium,3,10.00 +/- 0.00,3.50 +/- 0.00,8.50 +/- 1.07,8.53 +/- 0.46,1682 +/- 130,1684 +/- 137,15
+high,3,10.00 +/- 0.00,3.50 +/- 0.00,8.37 +/- 0.27,8.80 +/- 0.50,3516 +/- 131,3492 +/- 101,15

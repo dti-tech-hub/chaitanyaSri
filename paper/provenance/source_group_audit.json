@@ -1,0 +1,2887 @@
+{
+  "rf_-bmjm-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_-bx-mxj-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_-ls-al": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf__mcvm-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_a-mobile-pakistani-uniformed-police-anti-terrorist-unit-on-patrol-BB9P": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_bb-dj": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_bbscmsk": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_bjjv": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_bjkdjk": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_bjxcjj": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_bm-dv": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_bm-s": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_bmscm": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_bmxss": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_bvkj": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-1-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-10-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-100-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-101-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-102-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-103-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-104-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-105-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-106-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-107-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-108-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-109-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-11-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-110-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-111-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-112-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-113-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-114-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-115-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-116-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-117-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-118-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-119-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-12-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-120-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-121-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-122-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-123-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-124-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-125-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-126-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-127-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-128-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-129-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-13-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-130-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-131-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-132-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-133-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-134-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-135-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-136-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-137-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-138-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-139-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-14-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-140-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-141-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-142-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-143-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-144-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-145-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-146-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-147-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-148-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-149-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-15-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-150-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-151-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-152-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-153-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-154-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-155-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-156-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-157-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-158-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-159-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-16-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-160-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-161-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-162-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-163-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-164-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-165-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-166-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-167-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-168-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-169-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-17-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-170-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-171-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-172-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-173-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-174-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-175-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-176-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-177-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-178-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-179-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-18-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-180-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-181-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-182-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-183-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-184-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-185-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-186-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-187-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-188-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-189-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-19-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-190-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-191-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-192-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-193-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-194-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-195-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-196-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-197-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-198-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-199-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-2-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-20-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-200-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-201-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-202-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-203-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-204-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-205-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-206-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-207-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-208-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-209-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-21-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-210-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-211-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-212-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-213-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-214-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-215-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-216-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-217-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-218-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-219-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-22-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-220-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-221-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-222-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-223-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-224-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-225-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-226-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-227-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-228-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-229-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-23-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-24-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-25-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-26-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-27-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-28-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-29-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-3-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-30-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-31-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-32-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-33-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-34-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-35-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-36-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-37-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-38-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-39-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-4-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-40-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-41-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-42-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-43-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-44-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-45-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-46-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-47-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-48-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-49-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-5-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-50-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-51-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-52-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-53-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-54-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-55-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-56-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-57-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-58-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-59-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-6-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-60-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-61-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-62-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-63-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-64-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-65-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-66-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-67-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-68-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-69-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-7-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-70-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-71-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-72-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-73-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-74-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-75-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-76-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-77-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-78-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-79-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-8-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-80-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-81-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-82-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-83-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-84-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-85-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-86-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-87-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-88-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-89-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-9-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-90-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-91-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-92-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_csm-sc-93-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-94-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_csm-sc-95-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-96-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-97-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-98-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_csm-sc-99-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_download": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_download-1-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_fire-brigade-vehicles-at-the-scene-of-an-incident-2RFKG": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_fjff": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_frame": {
+    "train": 356,
+    "val": 87,
+    "test": 47
+  },
+  "rf_ggyu": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_hbhx": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_hhkk": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_hxhj": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_iefilfi": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_iljki": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_images": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_j-kdk": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_jbsc": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_jhsch": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_jjcdjk": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_jkcsj": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_jkdjkcjkc": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_jkdk": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_jkls": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_jks": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_jkscjsj": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_jksck": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_jsj": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_k_kxkxs": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_kdkl": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_kknk": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_kldne": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_kldnkl": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_klnk": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_klsk": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_klvdk": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_knd": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_knlcd": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_kskxx": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_kxk": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_lksalask": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_m-db-mdb-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_m-jm-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_m-l-fl": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_m-m-sz": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_m-msx": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_m-s": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_m-ss": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_m_-m_-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_mn-xnm-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_ndwjl": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_nm-xm-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_nmsbm": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_nmx-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-1-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-10-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-100-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-101-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-102-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-103-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-104-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-105-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-106-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-107-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-108-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-109-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-11-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-110-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-111-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-112-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-113-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-114-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-115-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-116-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-117-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-118-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-119-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-12-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-120-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-121-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-122-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-123-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-124-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-125-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-126-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-127-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-128-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-129-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-13-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-130-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-131-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-132-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-133-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-134-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-135-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-136-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-137-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-138-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-139-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-14-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-140-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-141-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-142-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-143-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-144-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-145-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-146-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-147-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-148-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-149-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-15-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-150-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-151-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-152-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-153-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-154-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-155-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-156-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-157-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-158-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-159-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-16-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-160-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-161-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-162-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-163-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-164-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-165-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-166-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-167-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-168-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-169-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-17-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-170-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-171-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-172-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-173-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-174-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-175-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-176-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-177-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-178-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-179-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-18-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-180-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-181-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-182-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-183-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-184-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-185-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-186-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-187-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-188-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-189-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-19-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-190-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-191-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-192-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-193-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-194-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-195-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-196-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-197-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-198-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-199-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-2-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-20-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-200-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-201-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-202-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-203-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-204-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-205-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-206-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-207-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-208-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-209-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-21-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-210-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-211-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-212-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-213-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-214-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-215-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-216-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-217-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-218-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-219-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-22-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-220-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-221-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-222-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-223-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-224-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-225-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-226-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-227-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-228-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-229-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-23-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-230-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-231-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-232-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-233-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-234-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-235-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-236-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-237-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-24-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-240-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-241-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-242-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-243-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-245-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-246-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-248-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-249-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-25-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-250-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-251-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-252-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-253-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-254-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-255-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-256-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-257-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-258-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-259-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-26-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-260-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-262-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-263-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-264-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-265-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-266-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-267-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-268-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-269-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-27-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-270-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-271-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-272-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-273-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-274-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-275-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-276-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-277-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-278-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-279-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-28-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-280-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-281-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-282-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-283-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-284-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-29-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-3-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-30-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-31-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-32-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-33-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-34-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-35-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-36-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-37-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-38-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-39-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-4-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-40-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-41-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-42-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-43-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-44-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-45-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-46-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-47-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-48-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-49-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-5-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-50-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-51-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-52-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-53-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-54-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-55-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-56-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-57-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-58-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-59-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-6-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-60-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-61-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-62-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-63-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-64-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-65-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-66-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-67-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-68-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-69-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-7-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-70-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-71-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-72-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-73-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-74-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-75-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-76-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-77-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-78-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-79-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-8-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-80-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-81-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-82-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-83-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-84-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-85-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-86-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-87-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-88-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-89-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-9-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-90-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-91-": {
+    "train": 0,
+    "val": 1,
+    "test": 0
+  },
+  "rf_sjnskj-92-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-93-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-94-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-95-": {
+    "train": 0,
+    "val": 0,
+    "test": 1
+  },
+  "rf_sjnskj-96-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-97-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-98-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_sjnskj-99-": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "rf_vmvvh": {
+    "train": 1,
+    "val": 0,
+    "test": 0
+  },
+  "vd_IMG": {
+    "train": 253,
+    "val": 72,
+    "test": 36
+  }
+}

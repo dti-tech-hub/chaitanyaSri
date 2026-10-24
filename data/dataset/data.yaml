@@ -1,0 +1,10 @@
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names:
+- ambulance
+- fire_engine
+- police_vehicle
+- normal_vehicle
+license: 'Source datasets: CC BY 4.0 (see docs/DATASETS.md)'

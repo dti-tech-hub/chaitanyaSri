@@ -1,0 +1,6 @@
+event_id,vehicle_id,vehicle_class,lane,arrival_time,requested_time,green_time,release_time,waiting_time_s,baseline_wait_s,priority_duration_s
+1,283,ambulance,north,40.0,42.0,43.5,49.5,3.5,8.0,6.0
+2,284,fire_engine,east,170.0,172.0,173.5,179.5,3.5,0.0,6.0
+3,285,police_vehicle,south,300.0,302.0,303.5,309.5,3.5,0.0,6.0
+4,286,ambulance,west,430.0,432.0,433.5,439.5,3.5,26.0,6.0
+5,287,fire_engine,north,560.0,562.0,563.5,569.5,3.5,16.0,6.0

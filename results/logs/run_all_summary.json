@@ -1,0 +1,113 @@
+{
+  "started_at": "2026-10-22T01:32:53+00:00",
+  "finished_at": "2026-10-22T01:33:22+00:00",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "project_root": "B:\\chaitanyasri\\emergency-vehicle-smart-signal",
+  "arguments": {
+    "train": false,
+    "epochs": 30,
+    "imgsz": 448,
+    "batch": 16,
+    "workers": 4,
+    "patience": 10,
+    "skip_evaluate": true,
+    "skip_simulation": false,
+    "skip_tests": false,
+    "demo": false,
+    "demo_frames": 400,
+    "check_dashboard": true
+  },
+  "steps": [
+    {
+      "name": "dataset validation",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "scripts/validate_dataset.py"
+      ],
+      "returncode": 0,
+      "status": "ok",
+      "elapsed_s": 16.93
+    },
+    {
+      "name": "YOLO training",
+      "status": "not_evaluated",
+      "reason": "not requested; pass --train to retrain"
+    },
+    {
+      "name": "held-out evaluation",
+      "status": "not_evaluated",
+      "reason": "skipped by --skip-evaluate"
+    },
+    {
+      "name": "simulation + sweep",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "simulation.py",
+        "--sweep",
+        "--seeds",
+        "42,43,44"
+      ],
+      "returncode": 0,
+      "status": "ok",
+      "elapsed_s": 1.7
+    },
+    {
+      "name": "pytest",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0,
+      "status": "ok",
+      "elapsed_s": 2.87
+    },
+    {
+      "name": "annotated demo",
+      "status": "not_evaluated",
+      "reason": "not requested; pass --demo"
+    },
+    {
+      "name": "dashboard smoke test",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-m",
+        "streamlit",
+        "run",
+        "dashboard/app.py",
+        "--server.headless",
+        "true",
+        "--server.port",
+        "8599",
+        "--browser.gatherUsageStats",
+        "false"
+      ],
+      "status": "ok",
+      "health": "ok",
+      "elapsed_s": 2.86,
+      "script_test": {
+        "name": "dashboard script test",
+        "command": [
+          "C:\\Python314\\python.exe",
+          "scripts/check_dashboard.py"
+        ],
+        "returncode": 0,
+        "status": "ok",
+        "elapsed_s": 3.96
+      },
+      "output_tail": "2026-10-22 07:03:16.959 Uvicorn server started on :::8599\n\n  You can now view your Streamlit app in your browser.\n\n  Local URL: http://localhost:8599\n  Network URL: http://192.168.29.150:8599\n  External URL: http://49.37.130.198:8599\n\n"
+    },
+    {
+      "name": "report tables",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "scripts/generate_results.py"
+      ],
+      "returncode": 0,
+      "status": "ok",
+      "elapsed_s": 0.16
+    }
+  ],
+  "status": "ok"
+}

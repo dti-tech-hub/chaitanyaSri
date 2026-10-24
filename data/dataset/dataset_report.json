@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-10-22T00:50:15+00:00",
+  "output": "B:\\chaitanyasri\\emergency-vehicle-smart-signal\\data\\dataset",
+  "classes": [
+    "ambulance",
+    "fire_engine",
+    "police_vehicle",
+    "normal_vehicle"
+  ],
+  "sources": [
+    {
+      "name": "emergency_vehicle_crigt",
+      "root": "data\\raw\\repos\\AI-Traffic-Management-System\\project\\datasets\\emergency_vehicles",
+      "license": "CC BY 4.0",
+      "class_map": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      },
+      "source_names": {
+        "0": "ambulance",
+        "1": "fire brigade",
+        "2": "police"
+      },
+      "splits": {
+        "train": {
+          "images": 745,
+          "boxes": 771,
+          "empty_labels": 0,
+          "missing_labels": 0,
+          "invalid_boxes": 0,
+          "duplicates_skipped": 0,
+          "class_counts": {
+            "ambulance": 409,
+            "fire_engine": 18,
+            "police_vehicle": 344
+          }
+        },
+        "val": {
+          "images": 213,
+          "boxes": 224,
+          "empty_labels": 0,
+          "missing_labels": 0,
+          "invalid_boxes": 0,
+          "duplicates_skipped": 0,
+          "class_counts": {
+            "ambulance": 104,
+            "fire_engine": 4,
+            "police_vehicle": 116
+          }
+        },
+        "test": {
+          "images": 107,
+          "boxes": 108,
+          "empty_labels": 0,
+          "missing_labels": 0,
+          "invalid_boxes": 0,
+          "duplicates_skipped": 0,
+          "class_counts": {
+            "ambulance": 50,
+            "fire_engine": 1,
+            "police_vehicle": 57
+          }
+        }
+      }
+    },
+    {
+      "name": "vehicle_detc",
+      "root": "data\\raw\\repos\\Emergency-Vehicle-and-Density-Detection\\vehicle-detc",
+      "license": "CC BY 4.0",
+      "class_map": {
+        "0": 0,
+        "1": 1,
+        "2": 3
+      },
+      "source_names": {
+        "0": "ambulance",
+        "1": "fire-truck",
+        "2": "vehicle"
+      },
+      "splits": {
+        "train": {
+          "images": 253,
+          "boxes": 948,
+          "empty_labels": 1,
+          "missing_labels": 0,
+          "invalid_boxes": 0,
+          "duplicates_skipped": 0,
+          "class_counts": {
+            "ambulance": 154,
+            "fire_engine": 114,
+            "normal_vehicle": 680
+          }
+        },
+        "val": {
+          "images": 72,
+          "boxes": 277,
+          "empty_labels": 0,
+          "missing_labels": 0,
+          "invalid_boxes": 0,
+          "duplicates_skipped": 0,
+          "class_counts": {
+            "ambulance": 44,
+            "fire_engine": 31,
+            "normal_vehicle": 202
+          }
+        },
+        "test": {
+          "images": 36,
+          "boxes": 118,
+          "empty_labels": 0,
+          "missing_labels": 0,
+          "invalid_boxes": 0,
+          "duplicates_skipped": 0,
+          "class_counts": {
+            "ambulance": 23,
+            "fire_engine": 19,
+            "normal_vehicle": 76
+          }
+        }
+      }
+    }
+  ],
+  "splits": {
+    "train": {
+      "images": 998,
+      "boxes": 1719,
+      "empty_labels": 1,
+      "class_counts": {
+        "ambulance": 563,
+        "fire_engine": 132,
+        "police_vehicle": 344,
+        "normal_vehicle": 680
+      }
+    },
+    "val": {
+      "images": 285,
+      "boxes": 501,
+      "empty_labels": 0,
+      "class_counts": {
+        "ambulance": 148,
+        "fire_engine": 35,
+        "police_vehicle": 116,
+        "normal_vehicle": 202
+      }
+    },
+    "test": {
+      "images": 143,
+      "boxes": 226,
+      "empty_labels": 0,
+      "class_counts": {
+        "ambulance": 73,
+        "fire_engine": 20,
+        "police_vehicle": 57,
+        "normal_vehicle": 76
+      }
+    }
+  },
+  "excluded": {},
+  "duplicates_skipped": 0,
+  "invalid_boxes_dropped": 0
+}
